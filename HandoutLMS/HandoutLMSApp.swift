@@ -11,7 +11,10 @@ import SwiftUI
 struct HandoutLMSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                GetStarted()
+            }
+            
         }
     }
 }
